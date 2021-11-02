@@ -6,8 +6,9 @@ const BarChart = () => {
         plotOptions: {
             bar: {
                 horizontal: true,
-            }
+            },
         },
+        colors: ['#FF8400'],
     };
     
     const mockData = {
